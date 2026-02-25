@@ -1,0 +1,4 @@
+from database import get_db
+db = get_db()
+db.clear_all_data()
+exit()
